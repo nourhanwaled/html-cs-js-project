@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale"> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+        <title>task1</title>
+    </head>
+    <body>
+        <!--start of seting box-->
+        <div class="setting-box">
+            <div class="toggle">
+            <i class="fas fa-cog"></i>
+            </div>
+            <div class="setting-container">
+            <div class="option-box">
+                    <h4>colors</h4>
+                    <ul>
+                        <li class="active" data-color="tomato"></li>
+                        <li data-color="aqua"></li>
+                        <li data-color="yellow"></li>
+                        <li data-color="crimson"></li>
+                        <li data-color="blue"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h4>Random backgrounds</h4>
+                    <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h4>Testing option</h4>
+                    <div class="bullets-option">
+                    <span class="yes active" data-display="yes">Show</span>
+                    <span class="no" data-display="no">hide</span>
+                    </div>
+                </div>
+                <button class="reset-option">Reaset Option</button>
+            </div>
+        </div>
+        <!--end of seting box-->
+        <!--start of nav bullets-->
+        <section class="nav-bulltes">
+            <div class="bullte" data-section=".aboutus">
+                <div class="tooltip">About Us</div>
+            </div>
+            <div class="bullte" data-section=".skills">
+                <div class="tooltip">Our Skills</div>
+            </div>
+            <div class="bullte" data-section=".gallary">
+                <div class="tooltip">Our Gallary</div>
+            </div>
+            <div class="bullte" data-section=".timeline">
+                <div class="tooltip">Timeline</div>
+            </div>
+            <div class="bullte" data-section=".feature">
+                <div class="tooltip">Feature</div>
+            </div>
+            <div class="bullte" data-section=".testmonils">
+                <div class="tooltip">Testmonils</div>
+            </div>
+        </section>
+        <!--end of nav bullets-->
+ <!--start of landing page-->
+ <section class="landing">
+     <div class="overlay"></div>
+     <div class="header">
+         <div class="logo">Spesial Design</div>
+         <div class="links-container">
+         <ul>
+             <div class="links Open">
+             <li><a href="#" class="active" data-section=".aboutus">About</a></li>
+             <li><a href="#"data-section=".skills">Skills</a></li>
+             <li><a href="#" data-section=".gallary">Gallary</a></li>
+             <li><a href="#" data-section=".timeline">Timeline</a></li>
+             <li><a href="#" data-section=".feature">feature</a></li>
+             <li><a href="#" data-section=".testmonils">Testmonils</a></li>
+             </ul>
+            <button class="toogle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+             </div>
+
+     </div>
+     <div class="intro">
+         <h1>We are <span>Creative </span>agency</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, accusamus ipsam officia nulla ducimus hic praesentium doloribus quas est doloremque.</p>
+     </div>
+ </section>
+ <!--end of landing page-->
+ <!--start of about us-->
+ <div class="aboutus container">
+     <div class="info">
+         <h2>About Us</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, placeat! Repudiandae, assumenda animi! Aliquid ipsam deleniti ad est perspiciatis! Officia eum quia nemo facilis repellendus! Praesentium nam nulla sunt dolorum.</p>
+     </div>
+         <div class="image">
+         <img src="images/bg-1.png">
+     </div>
+ </div>
+ <!--end of about us-->
+ <!--start of skills-->
+ <section class="skills">
+     <div class="container">
+     <h2>Our Skills</h2>
+     <div class="skill-box">
+         <div class="skill-name">Html</div>
+         <div class="skill-progress">
+             <span data-progress="100%"></span>
+         </div>
+     </div>
+     <div class="skill-box">
+        <div class="skill-name">Css</div>
+        <div class="skill-progress">
+            <span data-progress="90%"></span>
+        </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-name">javascript</div>
+        <div class="skill-progress">
+            <span data-progress="60%"></span>
+        </div>
+    </div>
+    <div. class="skill-box">
+        <div class="skill-name">C++</div>
+        <div class="skill-progress">
+            <span data-progress="70%"></span>
+        </div>
+        </div.>
+        <div class="skill-box">
+            <div class="skill-name">php</div>
+            <div class="skill-progress">
+                <span data-progress="30%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">jQuery</div>
+            <div class="skill-progress">
+                <span data-progress="50%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">php</div>
+            <div class="skill-progress">
+                <span data-progress="30%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">jQuery</div>
+            <div class="skill-progress">
+                <span data-progress="50%"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+ </section>
+ <!--end of skills-->
+ <!--start of gallary-->
+ <section class="gallary">
+     <div class="container">
+<h2>Our Gallary</h2>
+<div class="imgages-box">
+<img src="images/pic1.png" alt="image-One">
+<img src="images/pic2.png" alt="image-Two">
+<img src="images/pic3.png" alt="image-Three">
+<img src="images/pic4.png" alt="image-Four">
+<img src="images/pic5.png" alt="image-Five">
+<img src="images/pic6.png" alt="image-Six">
+<img src="images/pic7.png" alt="image-Seven">
+<img src="images/pic8.png" alt="image-Eight">
+<img src="images/pic9.png" alt="image-Nine">
+<img src="images/pic10.png" alt="image-Ten">
+<img src="images/pic11.png">
+<img src="images/pic12.png">
+<img src="images/pic13.png">
+<img src="images/pic14.png">
+<img src="images/pic15.png">
+<img src="images/pic16.png">
+<img src="images/bg-5.png">
+<img src="images/bg-4.png">
+<img src="images/bg-1.png">
+<img src="images/bg-2.png">
+</div>
+     </div>
+ </section>
+ <!--end of gallary-->
+ <!--start of timeline-->
+ <section class="timeline">
+     <div class="container">
+         <div class="timeline-content">
+             <div class="year">2020</div>
+             <div class="left">
+                 <div class="content">
+                     <h3>Teasting Heading</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perferendis modi voluptatibus nisi dolorum. Repellat, mollitia molestiae! Architecto magni animi at officia. Tempore rem minima, neque deserunt ut cum tempora.</p>
+                 </div>
+             </div>
+             <div class="clearfix"></div>
+             <div class="right">
+                <div class="content">
+                    <h3>Teasting Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perferendis modi voluptatibus nisi dolorum. Repellat, mollitia molestiae! Architecto magni animi at officia. Tempore rem minima, neque deserunt ut cum tempora.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="year">2021</div>
+            <div class="left">
+                <div class="content">
+                    <h3>Teasting Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perferendis modi voluptatibus nisi dolorum. Repellat, mollitia molestiae! Architecto magni animi at officia. Tempore rem minima, neque deserunt ut cum tempora.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+               <div class="content">
+                   <h3>Teasting Heading</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perferendis modi voluptatibus nisi dolorum. Repellat, mollitia molestiae! Architecto magni animi at officia. Tempore rem minima, neque deserunt ut cum tempora.</p>
+               </div>
+           </div>
+         </div>
+     </div>
+ </section>
+ <!--end of timeline-->
+ <!--start of feature-->
+ <section class="feature">
+     <h2>Our feature</h2>
+     <div class="container">
+         <div class="feat-box">
+             <img src="images/bg-1.png">
+             <h4>Development</h4>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ad.</p>
+         </div>
+         <div class="feat-box">
+            <img src="images/bg-2.png">
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ad.</p>
+        </div>
+        <div class="feat-box">
+            <img src="images/bg-3.png">
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ad.</p>
+        </div>
+    <!-- <div class="clearfix"></div> -->
+        <div class="feat-box">
+            <img src="images/bg-4.png">
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ad.</p>
+        </div>
+        <div class="feat-box">
+            <img src="images/bg-5.png">
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ad.</p>
+        </div>
+       <div class="feat-box">
+            <img src="images/pic1.png">
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ad.</p>
+        </div>
+        <div class="clearfix"></div>
+     </div>
+ </section>
+ <!--end of feature-->
+ <!--start of testmonils-->
+ <section class="testmonils">
+    <div class="container">
+     <h2>Testmonils</h2>
+         <div class="ts-box">
+       <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, odio tenetur, dignissimos accusantium nemo libero quo eveniet illo quis dicta sed voluptate. Suscipit velit soluta dignissimos delectus accusamus numquam? Autem!</p>
+       <div class="person-info">
+           <img src="images/5 (2).jpg">
+           <h4>Nody hossam</h4>
+           <p>Lorem ipsum dolor sit amet.</p>
+       </div>
+         </div>
+         <div class="ts-box">
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, odio tenetur, dignissimos accusantium nemo libero quo eveniet illo quis dicta sed voluptate. Suscipit velit soluta dignissimos delectus accusamus numquam? Autem!</p>
+            <div class="person-info">
+                <img src="images/treka.webp">
+                <h4>Mohamed</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+           </div>
+           <div class="ts-box">
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, odio tenetur, dignissimos accusantium nemo libero quo eveniet illo quis dicta sed voluptate. Suscipit velit soluta dignissimos delectus accusamus numquam? Autem!</p>
+            <div class="person-info">
+                <img src="images/6 (2).jpg">
+                <h4>Nour Waled</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+           </div>
+     </div>
+ </section>
+ <!--end of testmonils-->
+ <!--start of contact us-->
+ <section class="contact">
+     <div class="overlay"></div>
+     <div class="container">
+         <h2>Contact Us</h2>
+         <form>
+             <div class="left">
+                 <input type="text" placeholder="Your Name" name="name">
+                 <input type="number" placeholder="Your Phone" name="phone">
+                 <input type="email" placeholder="Your Email" name="email">
+                 <input type="text" placeholder="Subject" name="subject">
+
+             </div>
+             <div class="right">
+                 <textarea name="massage" placeholder="Your Message"></textarea>
+    <input type="submit" type="send">
+                </div>
+         </form>
+     </div>
+ </section>
+ <!--end of contact us-->
+ <!--start of footer-->
+ <footer>Created With Love By Nour Waled</footer>
+ <!--end of footer-->
+       <script src="script.js"></script> 
+    </body>
+ </html>
